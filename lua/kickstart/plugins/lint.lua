@@ -9,7 +9,7 @@ return {
         markdown = { 'markdownlint-cli2' },
         sh = { 'shellcheck' },
         sql = { 'sqlfluff' },
-        python = { 'flake8' },
+        python = { 'ruff' },
       }
 
       -- To allow other plugins to add linters to require('lint').linters_by_ft,
