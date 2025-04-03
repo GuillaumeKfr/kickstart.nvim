@@ -407,6 +407,20 @@ require('lazy').setup({
             require('telescope.themes').get_dropdown(),
           },
         },
+        opts = {
+          defaults = {
+            vimgrep_arguments = {
+              'rg',
+              '--color=never',
+              '--no-heading',
+              '--with-filename',
+              '--line-number',
+              '--column',
+              '--smart-case',
+              '--hidden',
+            },
+          },
+        },
       }
 
       -- Enable Telescope extensions if they are installed
