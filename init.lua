@@ -718,7 +718,6 @@ require('lazy').setup({
         'stylua', -- Used to format Lua code
         'sqlfluff',
         'ruff',
-        'ruff-lsp',
         'pyright',
         'shellcheck',
         'shfmt',
