@@ -1,4 +1,4 @@
-file_exists = function(name)
+local file_exists = function(name)
   local f = io.open(name, 'r')
   if f ~= nil then
     io.close(f)
@@ -8,7 +8,7 @@ file_exists = function(name)
   end
 end
 
-if file_exist '/etc/wsl.conf' then
+if file_exists '/etc/wsl.conf' then
   vim.g.clipboard = {
     name = 'WSLClip',
     copy = {
