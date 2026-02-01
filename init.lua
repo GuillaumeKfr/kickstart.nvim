@@ -602,7 +602,7 @@ require('lazy').setup({
       --  Feel free to add/remove any LSPs that you want here. They will automatically be installed.
       --  See `:help lsp-config` for information about keys and how to configure
       local servers = {
-        bashls = {},
+        -- bashls = {},
         -- clangd = {},
         -- gopls = {},
         pyright = {},
