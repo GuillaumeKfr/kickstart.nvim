@@ -624,16 +624,16 @@ require('lazy').setup({
       -- You can press `g?` for help in this menu.
       local ensure_installed = vim.tbl_keys(servers or {})
       vim.list_extend(ensure_installed, {
-        'lua_ls', -- Lua Language server
+        'lua-language-server', -- Lua Language server (lua_ls)
         'stylua', -- Used to format Lua code
--- Custom tools
+        -- Custom tools
         'sqlfluff',
         'ruff',
         'pyright',
         'shellcheck',
         'shfmt',
         'prettier',
-        'bashls',
+        'bash-language-server', -- Bash Language server (bashls)
       })
 
       require('mason-tool-installer').setup { ensure_installed = ensure_installed }
