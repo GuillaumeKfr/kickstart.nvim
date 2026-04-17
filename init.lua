@@ -633,6 +633,7 @@ require('lazy').setup({
         'shellcheck',
         'shfmt',
         'prettier',
+        'markdownlint-cli2',
         'bash-language-server', -- Bash Language server (bashls)
       })
 
